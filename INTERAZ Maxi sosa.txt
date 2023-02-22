@@ -1,0 +1,11 @@
+import java.util.Scanner;
+
+public class CalcularEdad {
+public static void main(String[] args) {
+Scanner input = new Scanner(System.in);
+System.out.println("Introduce tu año de nacimiento:");
+int nacimiento = input.nextInt();
+int edad = 2020 - nacimiento;
+System.out.println("Tu edad es: " + edad + " años");
+}
+}
